@@ -1,6 +1,7 @@
 *.class
 
 # Package Files #
+<<<<<<< HEAD
 **/*.jar
 **/.svn
 **/je.*
@@ -17,3 +18,8 @@ CDB/
 /lib
 .fatjar
 
+=======
+*.jar
+*.war
+*.ear
+>>>>>>> 21d8f47a14a7669f02bd1bba009ca1bc52f1255a
