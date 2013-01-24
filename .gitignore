@@ -1,0 +1,19 @@
+*.class
+
+# Package Files #
+**/*.jar
+**/.svn
+**/je.*
+*.war
+*.ear1
+logs/
+htdocs/
+CDB/
+.settings/
+*.lck
+*.jdb
+*.dat
+*.jar
+/lib
+.fatjar
+

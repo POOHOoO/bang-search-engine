@@ -1,0 +1,19 @@
+<html>
+<body>
+	<script>
+		function feelinglucky(){
+			document.forms["search"].###BANG_FEELING_LUCKY_PARAM###.value = "###BANG_FEELING_LUCKY_TRUE_VALUE###";
+  			document.forms["search"].submit();
+		}
+	</script>
+
+	<form name="search" method="GET" action="bang/###BANG_SEARCH_SUBMIT_PATH###">
+		<input type="hidden" name="###BANG_FEELING_LUCKY_PARAM###" value="false">
+		<input type="text" name="###BANG_QUERY_PARAM###"><br />
+		<input type="checkbox" name="###BANG_SEARCH_MODE_INCLUDE_YAHOO###" value="###BANG_PARAM_TRUE_VALUE###">Include Yahoo! Results<br />
+		<input type="checkbox" name="###BANG_SEARCH_MODE_INCLUDE_AMAZON###" value="###BANG_PARAM_TRUE_VALUE###">Include Amazon.com Results<br />
+		<input type="submit" name="submit" value="Bang"><br />
+		<input type="submit" name="lucky" value="I'm feeling lucky" onClick="feelinglucky()">
+	</form>
+</body>
+</html>
